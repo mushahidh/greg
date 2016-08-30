@@ -1,0 +1,85 @@
+nav {
+	
+	height: 60px;
+	background-color: #EEEEEE;
+	
+	width: 100%;
+
+
+
+}
+body {
+	margin: 0;
+}
+.nav-text {
+	float: left;
+}
+.nav-text-right {
+	float: right;
+	font-size: 22px;
+}
+.nav  {
+
+    text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+li  {
+	display: inline;
+}
+.search {
+	    margin-top: 49px;
+    margin-left: 242px;
+}
+li a {
+	font-size: 30px;
+
+}
+li a.nav {
+	font-size: 20px;
+}
+input[type="text"] {
+
+	width: 550px;
+	height: 35px;
+	
+	font-size: 25px;
+}
+button {
+	background-color: white;
+	height: 40px;
+}
+.list {
+	margin-top: 20px;
+	    margin-left: 195px;
+}
+.date {
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.link {
+	 font-weight: bold;
+    font-size: 20px;
+    color: blue;
+
+}
+
+.gray {
+	color: gray;
+}
+li .gray:hover{
+	color: yellow;
+}
+li > .display{
+	display: inherit;
+}
+
+main {
+	width: 100%;
+}
+
